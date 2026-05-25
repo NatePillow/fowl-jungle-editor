@@ -1,0 +1,395 @@
+[
+    {
+        "id" : "maps-placeholder",
+        "startingMap" : true,
+        "defaultSpawnPosition" : "1,1",
+        "tileProperties" : {
+            "1,1" : {
+                "disabled" : false,
+                "type" : "GRASS",
+                "minimapTile" : "tiles/grass01.png",
+                "minimapIcon" : "",
+                "ingress" : {
+                    "NORTH" : "true",
+                    "EAST" : "false",
+                    "SOUTH" : "false",
+                    "WEST" : "false"
+                },
+                "drawBoundaries" : {
+                    "NORTH" : "false",
+                    "EAST" : "true",
+                    "SOUTH" : "true",
+                    "WEST" : "true"
+                },
+                "fpvTextures" : {
+                    "NORTH_BOUNDARY" : [],
+                    "EAST_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "SOUTH_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "WEST_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "CEILING" : [],
+                    "FLOOR" : ["textures/grass.jpg"],
+                    "CLOSE_FOREGROUND" : [],
+                    "FOREGROUND" : [],
+                    "FAR_FOREGROUND" : []
+                }
+            },
+            "1,2" : {
+                "disabled" : false,
+                "type" : "GRASS",
+                "minimapTile" : "tiles/grass01.png",
+                "minimapIcon" : "",
+                "ingress" : {
+                    "NORTH" : "true",
+                    "EAST" : "true",
+                    "SOUTH" : "true",
+                    "WEST" : "false"
+                },
+                "drawBoundaries" : {
+                    "NORTH" : "false",
+                    "EAST" : "false",
+                    "SOUTH" : "false",
+                    "WEST" : "true"
+                },
+                "fpvTextures" : {
+                    "NORTH_BOUNDARY" : [],
+                    "EAST_BOUNDARY" : [],
+                    "SOUTH_BOUNDARY" : [],
+                    "WEST_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "CEILING" : [],
+                    "FLOOR" : ["textures/grass.jpg"],
+                    "CLOSE_FOREGROUND" : [],
+                    "FOREGROUND" : [],
+                    "FAR_FOREGROUND" : []
+                }
+            },
+            "1,3" : {
+                "disabled" : false,
+                "type" : "GRASS",
+                "minimapTile" : "tiles/grass01.png",
+                "minimapIcon" : "",
+                "ingress" : {
+                    "NORTH" : "false",
+                    "EAST" : "false",
+                    "SOUTH" : "true",
+                    "WEST" : "false"
+                },
+                "drawBoundaries" : {
+                    "NORTH" : "true",
+                    "EAST" : "true",
+                    "SOUTH" : "false",
+                    "WEST" : "true"
+                },
+                "fpvTextures" : {
+                    "NORTH_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "EAST_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "SOUTH_BOUNDARY" : [],
+                    "WEST_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "CEILING" : [],
+                    "FLOOR" : ["textures/grass.jpg"],
+                    "CLOSE_FOREGROUND" : [],
+                    "FOREGROUND" : [],
+                    "FAR_FOREGROUND" : []
+                }
+            },
+            "2,1" : {
+                "disabled" : false,
+                "type" : "GRASS",
+                "minimapTile" : "tiles/grass01.png",
+                "minimapIcon" : "",
+                "ingress" : {
+                    "NORTH" : "true",
+                    "EAST" : "true",
+                    "SOUTH" : "false",
+                    "WEST" : "false"
+                },
+                "drawBoundaries" : {
+                    "NORTH" : "false",
+                    "EAST" : "false",
+                    "SOUTH" : "true",
+                    "WEST" : "true"
+                },
+                "fpvTextures" : {
+                    "NORTH_BOUNDARY" : [],
+                    "EAST_BOUNDARY" : [],
+                    "SOUTH_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "WEST_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "CEILING" : [],
+                    "FLOOR" : ["textures/grass.jpg"],
+                    "CLOSE_FOREGROUND" : [],
+                    "FOREGROUND" : [],
+                    "FAR_FOREGROUND" : []
+                }
+            },
+            "2,2" : {
+                "disabled" : false,
+                "type" : "GRASS",
+                "minimapTile" : "tiles/grass01.png",
+                "minimapIcon" : "",
+                "ingress" : {
+                    "NORTH" : "true",
+                    "EAST" : "true",
+                    "SOUTH" : "true",
+                    "WEST" : "true"
+                },
+                "drawBoundaries" : {
+                    "NORTH" : "false",
+                    "EAST" : "false",
+                    "SOUTH" : "false",
+                    "WEST" : "false"
+                },
+                "fpvTextures" : {
+                    "NORTH_BOUNDARY" : [],
+                    "EAST_BOUNDARY" : [],
+                    "SOUTH_BOUNDARY" : [],
+                    "WEST_BOUNDARY" : [],
+                    "CEILING" : [],
+                    "FLOOR" : ["textures/grass.jpg"],
+                    "CLOSE_FOREGROUND" : [],
+                    "FOREGROUND" : [],
+                    "FAR_FOREGROUND" : []
+                }
+            },
+            "2,3" : {
+                "disabled" : false,
+                "type" : "GRASS",
+                "minimapTile" : "tiles/grass01.png",
+                "minimapIcon" : "",
+                "ingress" : {
+                    "NORTH" : "false",
+                    "EAST" : "true",
+                    "SOUTH" : "true",
+                    "WEST" : "false"
+                },
+                "drawBoundaries" : {
+                    "NORTH" : "true",
+                    "EAST" : "true",
+                    "SOUTH" : "false",
+                    "WEST" : "true"
+                },
+                "fpvTextures" : {
+                    "NORTH_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "EAST_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "SOUTH_BOUNDARY" : [],
+                    "WEST_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "CEILING" : [],
+                    "FLOOR" : ["textures/grass.jpg"],
+                    "CLOSE_FOREGROUND" : [],
+                    "FOREGROUND" : [],
+                    "FAR_FOREGROUND" : []
+                }
+            },
+            "3,1" : {
+                "disabled" : false,
+                "type" : "GRASS",
+                "minimapTile" : "tiles/grass01.png",
+                "minimapIcon" : "",
+                "ingress" : {
+                    "NORTH" : "true",
+                    "EAST" : "true",
+                    "SOUTH" : "false",
+                    "WEST" : "true"
+                },
+                "drawBoundaries" : {
+                    "NORTH" : "false",
+                    "EAST" : "false",
+                    "SOUTH" : "true",
+                    "WEST" : "false"
+                },
+                "fpvTextures" : {
+                    "NORTH_BOUNDARY" : [],
+                    "EAST_BOUNDARY" : [],
+                    "SOUTH_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "WEST_BOUNDARY" : [],
+                    "CEILING" : [],
+                    "FLOOR" : ["textures/dirt.png"],
+                    "CLOSE_FOREGROUND" : [],
+                    "FOREGROUND" : [],
+                    "FAR_FOREGROUND" : []
+                }
+            },
+            "3,2" : {
+                "disabled" : false,
+                "type" : "GRASS",
+                "minimapTile" : "tiles/grass01.png",
+                "minimapIcon" : "",
+                "ingress" : {
+                    "NORTH" : "true",
+                    "EAST" : "true",
+                    "SOUTH" : "true",
+                    "WEST" : "true"
+                },
+                "drawBoundaries" : {
+                    "NORTH" : "false",
+                    "EAST" : "false",
+                    "SOUTH" : "false",
+                    "WEST" : "false"
+                },
+                "fpvTextures" : {
+                    "NORTH_BOUNDARY" : [],
+                    "EAST_BOUNDARY" : [],
+                    "SOUTH_BOUNDARY" : [],
+                    "WEST_BOUNDARY" : [],
+                    "CEILING" : [],
+                    "FLOOR" : ["textures/grass.jpg"],
+                    "CLOSE_FOREGROUND" : [],
+                    "FOREGROUND" : [],
+                    "FAR_FOREGROUND" : []
+                }
+            },
+            "3,3" : {
+                "disabled" : false,
+                "type" : "GRASS",
+                "minimapTile" : "tiles/grass01.png",
+                "minimapIcon" : "",
+                "ingress" : {
+                    "NORTH" : "false",
+                    "EAST" : "true",
+                    "SOUTH" : "true",
+                    "WEST" : "false"
+                },
+                "drawBoundaries" : {
+                    "NORTH" : "true",
+                    "EAST" : "true",
+                    "SOUTH" : "false",
+                    "WEST" : "true"
+                },
+                "fpvTextures" : {
+                    "NORTH_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "EAST_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "SOUTH_BOUNDARY" : [],
+                    "WEST_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "CEILING" : [],
+                    "FLOOR" : ["textures/dirt.png"],
+                    "CLOSE_FOREGROUND" : [],
+                    "FOREGROUND" : [],
+                    "FAR_FOREGROUND" : []
+                }
+            },
+            "4,1" : {
+                "disabled" : false,
+                "type" : "GRASS",
+                "minimapTile" : "tiles/grass01.png",
+                "minimapIcon" : "",
+                "ingress" : {
+                    "NORTH" : "true",
+                    "EAST" : "false",
+                    "SOUTH" : "false",
+                    "WEST" : "true"
+                },
+                "drawBoundaries" : {
+                    "NORTH" : "false",
+                    "EAST" : "true",
+                    "SOUTH" : "true",
+                    "WEST" : "false"
+                },
+                "fpvTextures" : {
+                    "NORTH_BOUNDARY" : [],
+                    "EAST_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "SOUTH_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "WEST_BOUNDARY" : [],
+                    "CEILING" : [],
+                    "FLOOR" : ["textures/dirt.png"],
+                    "CLOSE_FOREGROUND" : [],
+                    "FOREGROUND" : [],
+                    "FAR_FOREGROUND" : []
+                }
+            },
+            "4,2" : {
+                "disabled" : false,
+                "type" : "GRASS",
+                "minimapTile" : "tiles/grass01.png",
+                "minimapIcon" : "",
+                "ingress" : {
+                    "NORTH" : "true",
+                    "EAST" : "false",
+                    "SOUTH" : "true",
+                    "WEST" : "true"
+                },
+                "drawBoundaries" : {
+                    "NORTH" : "false",
+                    "EAST" : "true",
+                    "SOUTH" : "false",
+                    "WEST" : "false"
+                },
+                "fpvTextures" : {
+                    "NORTH_BOUNDARY" : [],
+                    "EAST_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "SOUTH_BOUNDARY" : [],
+                    "WEST_BOUNDARY" : [],
+                    "CEILING" : [],
+                    "FLOOR" : ["textures/grass.jpg"],
+                    "CLOSE_FOREGROUND" : [],
+                    "FOREGROUND" : [],
+                    "FAR_FOREGROUND" : []
+                }
+            },
+            "4,3" : {
+                "disabled" : false,
+                "type" : "GRASS",
+                "minimapTile" : "tiles/grass01.png",
+                "minimapIcon" : "",
+                "ingress" : {
+                    "NORTH" : "false",
+                    "EAST" : "false",
+                    "SOUTH" : "true",
+                    "WEST" : "true"
+                },
+                "drawBoundaries" : {
+                    "NORTH" : "true",
+                    "EAST" : "true",
+                    "SOUTH" : "false",
+                    "WEST" : "true"
+                },
+                "fpvTextures" : {
+                    "NORTH_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "EAST_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "SOUTH_BOUNDARY" : [],
+                    "WEST_BOUNDARY" : ["textures/stone_wall.jpg"],
+                    "CEILING" : [],
+                    "FLOOR" : ["textures/dirt.png"],
+                    "CLOSE_FOREGROUND" : [],
+                    "FOREGROUND" : [],
+                    "FAR_FOREGROUND" : []
+                }
+            }
+        },
+        "troops" : {
+            "1,2" : [
+                {
+                    "id" : "troops-starter-chicken"
+                }
+            ]
+        },
+        "events" : {
+            "4,3" : [
+                {
+                    "id" : "events-starter-event",
+                    "sprite" : "icons/placeholder-text.png",
+                    "spriteType" : "STATIC",
+                    "triggeredSprite" : "icons/placeholder-medium.png",
+                    "triggeredSpriteType" : "STATIC",
+                    "eventType" : "HARVEST",
+                    "triggerType" : "TOUCH",
+                    "lootTable" : "loot-harvest-grass"
+                }
+            ]
+        },
+        "temperature" : "TEMPERATE",
+        "weather" : [
+            {
+                "probability" : 0.5,
+                "types" : [
+                    "CLEAR"
+                ]
+            },
+            {
+                "probability" : 0.5,
+                "types" : [
+                    "CLOUDY"
+                ]
+            }
+        ],
+        "minimumWeatherSteps" : 90,
+        "weatherChangeProbability" : 0.05
+    }
+]
