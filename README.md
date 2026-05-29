@@ -1,3 +1,19 @@
+# Preamble
+
+This project is part of a series to use AI tools under various different conditions.
+
+* Standard scenario:
+  * [FFXI Single Player](https://github.com/NatePillow/LandSandBoat/blob/singleplayer/DIARY.md)
+  * Domain knowledge, planning, and core development was completed by the human dev, an AI tool was then "onboarded" onto the project while it was being prepped for long-term feature development, and then said feature development is turned over to the AI tool indefinitely.
+* Full scenario:
+  * **This project**
+  * Zero human code, only human guidance and correction.
+* Legacy scenario:
+  * [fowl-jungle-public](https://github.com/NatePillow/fowl-jungle-public)
+  * A well-established codebase with particular quirks that give AI tools a hard time. This has forced a decision to refactor code to try to better equip AI tools for success.
+
+---
+
 # Fowl Jungle Editor
 
 A desktop GUI editor for [Fowl Jungle](https://github.com/NatePillow/fowl-jungle-public) game data. Parses, edits, and saves the JSON asset files that drive all game content.
@@ -28,15 +44,17 @@ Click **Open Project** and select the `assets/json/` folder from the Fowl Jungle
 
 ## Editors
 
-| Editor    | Status  | JSON files          |
-|-----------|---------|---------------------|
-| World     | Planned | `world/*.json`      |
-| Map       | Working | `world/maps/*.json` |
-| Battle    | Planned | `battles/*.json`    |
-| Troops    | Planned | `troops/*.json`     |
-| Lifeforms | Planned | `lifeform/*.json`   |
-| Equipment | Planned | `equipment/*.json`  |
-| Items     | Planned | `items/*.json`      |
+| Editor    | Status  | JSON files                          |
+|-----------|---------|-------------------------------------|
+| Map       | Partial — tile editing and auto-placement done; painting/wand tools pending | `world/maps/*.json`     |
+| Equipment | Partial — read-only list view; add/edit/delete not yet implemented          | `equipment/*.json`      |
+| Weapons   | Partial — read-only list view; add/edit/delete not yet implemented          | `weapons/*.json`        |
+| Items     | Partial — read-only list view; add/edit/delete not yet implemented          | `items/*.json`          |
+| Recipes   | Partial — read-only list view; add/edit/delete not yet implemented          | `*_recipes.json`        |
+| World     | Planned                                                                     | `world/*.json`          |
+| Battle    | Planned                                                                     | `battles/*.json`        |
+| Troops    | Planned                                                                     | `troops/*.json`         |
+| Lifeforms | Planned                                                                     | `lifeform/*.json`       |
 
 ## Map Editor
 
